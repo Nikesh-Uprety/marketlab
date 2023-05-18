@@ -464,7 +464,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: rgb(61 64 91);
+  background-color: rgb(0, 0, 0);
 }
 
 .navbar {
@@ -493,8 +493,11 @@ strong {
 }
 
 .navbar-brand-image {
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
+}
+.logo{
+  height: 97px;
 }
 
 .navbar-brand-text {
@@ -669,7 +672,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/trade.jpg');
+  background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
