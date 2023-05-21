@@ -1,12 +1,3 @@
-/*
-
-TemplateMo 587 Tiya Golf Club
-
-https://templatemo.com/tm-587-tiya-golf-club
-
-*/
-
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -168,7 +159,8 @@ strong {
 }
 
 .cd-words-wrapper b {
-  color: var(--link-hover-color);
+  /* color: var(--white-color); */
+  color: #ff891b;
   display: inline-block;
   position: absolute;
   white-space: nowrap;
@@ -496,7 +488,8 @@ strong {
   width: 60px;
   height: 60px;
 }
-.logo{
+
+.logo {
   height: 97px;
 }
 
@@ -672,7 +665,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/banner.jpg');
+  background-image: url('../images/bullbear.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -724,7 +717,7 @@ strong {
   BACKGROUND IMAGE SECTION        
 -----------------------------------------*/
 .section-bg-image {
-  background-image: url('../images/frederik-rosar-NDSZcCfnsbY-unsplash.jpg');
+  background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
