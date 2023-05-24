@@ -135,7 +135,7 @@ strong {
 
 .section-overlay {
   content: "";
-  background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgb(39, 48, 83) 100%) repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgb(0, 0, 0) 100%) repeat scroll 0% 0%;
   position: absolute;
   top: 0;
   right: 0;
@@ -665,7 +665,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/bullbear.jpg');
+  background-image: url('../images/bannerimage2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -717,7 +717,7 @@ strong {
   BACKGROUND IMAGE SECTION        
 -----------------------------------------*/
 .section-bg-image {
-  background-image: url('../images/banner.jpg');
+  background-image: url('../images/bullbear.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
