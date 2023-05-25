@@ -40,6 +40,22 @@ body {
 
 
 /*---------------------------------------
+  Custom Responsive               
+-----------------------------------------*/
+@media screen and (max-width: 991px) {
+  .navbar {
+    background-color: #000000;
+  }
+
+  .maps {
+    width: 368px;
+    height: 450px;
+  }
+}
+
+
+
+/*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
 
@@ -938,7 +954,7 @@ strong {
 }
 
 .events-detail-section .custom-block-info {
-  padding: 40px 60px;
+  padding: 40px 1px;
 }
 
 .events-detail-info {
