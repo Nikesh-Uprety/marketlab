@@ -41,8 +41,8 @@
 
     button.form-control.common.insta {
         margin-right: 5px;
-            /* background: #ff5234; */
-             background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+        /* background: #ff5234; */
+        background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
     }
 
 
@@ -89,6 +89,26 @@
         /* .socials {
             display: flex;
         } */
+        label.formss {
+            padding-left: 53px;
+        }
+
+        label.contactform {
+            margin-left: 36px;
+        }
+
+        /* input#email {
+            width: 220px;
+            margin-left: 48px;
+        } */
+        input#email {
+            min-width: 332px;
+            margin-left: 48px;
+        }
+
+        input#full-name {
+            width: 142px;
+        }
 
         .common {}
 
@@ -671,8 +691,7 @@
 
                     <div class="col-lg-5 col-12 mx-auto">
                         <h4 class="mb-4 pb-lg-2">Join us!</h4>
-                        <form action="#" method="post"
-                            class="custom-form membership-form shadow-lg" role="form">
+                        <form action="#" method="post" class="custom-form membership-form shadow-lg" role="form">
                             <h4 class="text-white mb-4">Become a member</h4>
 
                             <!-- <div class="form-floating">
@@ -697,6 +716,7 @@
                                 <div class="socials">
                                     <button type="submit" class="form-control common insta">
                                         <a class="socialbutton" href="https://www.instagram.com/market_lab100/">Follow
+                                            us
                                             on Instagram</a>
                                     </button>
                                     <button type="submit" class="form-control common telegram">
@@ -710,9 +730,9 @@
                                 <!-- <label for="floatingTextarea"> Comments</label> -->
                             </div>
 
-                            <button type="submit" style="background: #5865F2;"class="form-control">
+                            <button type="submit" style="background: #5865F2;" class="form-control">
                                 <a class="socialbutton" href="https://discord.gg/zZabmQ5DXK">Join Our Discord</a>
-                                </button>
+                            </button>
                     </div>
                     </form>
                 </div>
@@ -859,7 +879,7 @@
                                         <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
                                             class="form-control" placeholder="Email address" required="">
 
-                                        <label for="floatingInput">Email address</label>
+                                        <label class="contactform" for="floatingInput">Email address</label>
                                     </div>
                                 </div>
 
