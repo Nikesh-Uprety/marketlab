@@ -29,9 +29,24 @@
 
 </head>
 <style>
+    a.socialbutton {
+        color: white;
+        text-decoration: none;
+    }
+
     p.aboutfont {
         color: black;
         font-size: 19px;
+    }
+
+    button.form-control.common.insta {
+        margin-right: 5px;
+            background: #ff5234;
+    }
+
+
+    button.form-control.common.telegram {
+        background: #0582e3;
     }
 
     @media screen and (max-width: 991px) {
@@ -39,9 +54,17 @@
             background-color: #000000;
         }
 
+        button.form-control {
+            margin-top: 10px;
+        }
+
         .maps {
             width: 368px;
             height: 450px;
+        }
+
+        .common {
+            margin-top: 10px;
         }
     }
 
@@ -60,6 +83,16 @@
 
         .textcontent {
             width: 100%;
+        }
+
+        .socials {
+            display: flex;
+        }
+
+        .common {}
+
+        button.form-control {
+            margin-top: 23px;
         }
 
         .gaap {
@@ -296,11 +329,11 @@
                     </div> -->
                     <div class="col-lg-6 col-12">
                         <div class="ratio ratio-16x9">
-                           
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/diKFCq8tegI" title="YouTube video player"
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    allowfullscreen></iframe>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/diKFCq8tegI"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
 
@@ -447,7 +480,7 @@
 
                     <div class="col-lg-6 col-12">
                         <div class="section-bg-image-block">
-                            <h2 class="mb-lg-3">Get our newsletter</h2>
+                            <h2 class="mb-lg-3">Get our Free E-Book</h2>
 
                             <p></p>
 
@@ -656,10 +689,24 @@
                             </div>
 
                             <div class="form-floating">
-                                <textarea class="form-control" id="message" name="message"
-                                    placeholder="Describe message here"></textarea>
 
-                                <label for="floatingTextarea"> Comments</label>
+                                <!-- <textarea class="form-control" id="message" name="message"
+                                    placeholder="Describe message here"></textarea> -->
+                                <!-- <button type="submit" class="form-control">Submit</button> -->
+                                <div class="socials">
+                                    <button type="submit" class="form-control common insta">
+                                        <a class="socialbutton" href="https://www.instagram.com/market_lab100/">Follow
+                                            on Insta</a>
+                                    </button>
+                                    <button type="submit" class="form-control common telegram">
+                                        <a class="socialbutton" href="https://t.me/+7S0jlek0-W8xNTk1">Join our
+                                            Telegram</a>
+                                    </button>
+                                </div>
+
+
+
+                                <!-- <label for="floatingTextarea"> Comments</label> -->
                             </div>
 
                             <button type="submit" class="form-control">Submit</button>
@@ -870,7 +917,7 @@
 
 
                 <div class="col-lg-3 col-12">
-                  
+
                     <br>
                     <p class="copyright-text">Copyright © 2023 MarketLab</p>
                 </div>
