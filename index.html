@@ -29,6 +29,8 @@
 
 </head>
 <style>
+    @media (min-width: 992px) {}
+
     a.socialbutton {
         color: white;
         text-decoration: none;
@@ -105,6 +107,11 @@
             min-width: 332px;
             margin-left: 48px;
         }
+
+        button.form-control.sub {
+            margin-top: 0px;
+        }
+
 
         input#full-name {
             width: 142px;
@@ -514,10 +521,10 @@
                                 <div class="input-group input-group-lg">
                                     <span class="input-group-text bi-envelope" id="basic-addon1"></span>
 
-                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*"
-                                        class="form-control" placeholder="Email address" required="">
+                                    <input type="email" name="email" id="subscribe" pattern="[^ @]*@[^ @]*"
+                                        class="form-control sub" placeholder="Email address" required="">
 
-                                    <button type="submit" class="form-control">Subscribe</button>
+                                    <button type="submit" class="form-control sub">Subscribe</button>
                                 </div>
                             </form>
                         </div>
